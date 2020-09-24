@@ -1,7 +1,7 @@
 class A
 {
     int a;
-    void set_a(int i)
+    void set_a(final int i)
     {
         a=i;
     }
@@ -13,7 +13,7 @@ class A
 class B extends A
 {
     int b;
-    void set_b(int i)
+    void set_b(final int i)
     {
         b=i;
     }
@@ -30,9 +30,9 @@ class B extends A
 }
 public class Inherit
 {
-     public static void main(String[] args)
+     public static void main(final String[] args)
      {
-         B obj_B=new B();
+         final B obj_B=new B();
          obj_B.set_a(10);
          obj_B.set_b(20);
          obj_B.show_a();

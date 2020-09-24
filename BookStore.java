@@ -84,6 +84,8 @@ public class BookStore {
         a = emp.next();
 
         C[i] = new Publication(p,t,c,a);
+        KB.close();
+        emp.close();
         }
         int ch;
         do {
