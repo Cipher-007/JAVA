@@ -16,23 +16,23 @@ void getdata()
 
 {
 
-System.out.println(“Enter Name of the Employee”);
+System.out.println("Enter Name of the Employee");
 
 name = get.nextLine();
 
-System.out.println(“Enter Mail id”);
+System.out.println("Enter Mail id");
 
 mailid = get.nextLine();
 
-System.out.println(“Enter Address of the Employee:”);
+System.out.println("Enter Address of the Employee:");
 
 address = get.nextLine();
 
-System.out.println(“Enter employee id “);
+System.out.println("Enter employee id ");
 
 empid = get.nextInt();
 
-System.out.println(“Enter Mobile Number”);
+System.out.println("Enter Mobile Number");
 
 mobile = get.nextLong();
 
@@ -42,15 +42,15 @@ void display()
 
 {
 
-System.out.println(“Employee Name: “+name);
+System.out.println("Employee Name: "+name);
 
-System.out.println(“Employee id : “+empid);
+System.out.println("Employee id : "+empid);
 
-System.out.println(“Mail id : “+mailid);
+System.out.println("Mail id : "+mailid);
 
-System.out.println(“Address: “+address);
+System.out.println("Address: "+address);
 
-System.out.println(“Mobile Number: “+mobile);
+System.out.println("Mobile Number: "+mobile);
 
 }
 
@@ -66,7 +66,7 @@ void getprogrammer()
 
 {
 
-System.out.println(“Enter basic pay”);
+System.out.println("Enter basic pay");
 
 bp = get.nextDouble();
 
@@ -88,25 +88,25 @@ gross=(bp+da+hra);
 
 net=(gross-pf-club);
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“PAY SLIP FOR PROGRAMMER”);
+System.out.println("PAY SLIP FOR PROGRAMMER");
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“Basic Pay:Rs”+bp);
+System.out.println("Basic Pay:Rs"+bp);
 
-System.out.println(“DA:Rs”+da);
+System.out.println("DA:Rs"+da);
 
-System.out.println(“PF:Rs”+pf);
+System.out.println("PF:Rs"+pf);
 
-System.out.println(“HRA:Rs”+hra);
+System.out.println("HRA:Rs"+hra);
 
-System.out.println(“CLUB:Rs”+club);
+System.out.println("CLUB:Rs"+club);
 
-System.out.println(“GROSS PAY:Rs”+gross);
+System.out.println("GROSS PAY:Rs"+gross);
 
-System.out.println(“NET PAY:Rs”+net);
+System.out.println("NET PAY:Rs"+net);
 
 }
 
@@ -122,7 +122,7 @@ void getasst()
 
 {
 
-System.out.println(“Enter basic pay”);
+System.out.println("Enter basic pay");
 
 bp = get.nextDouble();
 
@@ -144,25 +144,25 @@ gross=(bp+da+hra);
 
 net=(gross-pf-club);
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“PAY SLIP FOR ASSISTANT PROFESSOR”);
+System.out.println("PAY SLIP FOR ASSISTANT PROFESSOR");
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“Basic Pay:Rs”+bp);
+System.out.println("Basic Pay:Rs"+bp);
 
-System.out.println(“DA:Rs”+da);
+System.out.println("DA:Rs"+da);
 
-System.out.println(“HRA:Rs”+hra);
+System.out.println("HRA:Rs"+hra);
 
-System.out.println(“PF:Rs”+pf);
+System.out.println("PF:Rs"+pf);
 
-System.out.println(“CLUB:Rs”+club);
+System.out.println("CLUB:Rs"+club);
 
-System.out.println(“GROSS PAY:Rs”+gross);
+System.out.println("GROSS PAY:Rs"+gross);
 
-System.out.println(“NET PAY:Rs”+net);
+System.out.println("NET PAY:Rs"+net);
 
 }
 
@@ -178,7 +178,7 @@ void getassociate()
 
 {
 
-System.out.println(“Enter basic pay”);
+System.out.println("Enter basic pay");
 
 bp = get.nextDouble();
 
@@ -200,25 +200,25 @@ gross=(bp+da+hra);
 
 net=(gross-pf-club);
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“PAY SLIP FOR ASSOCIATE PROFESSOR”);
+System.out.println("PAY SLIP FOR ASSOCIATE PROFESSOR");
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“Basic Pay:Rs”+bp);
+System.out.println("Basic Pay:Rs"+bp);
 
-System.out.println(“DA:Rs”+da);
+System.out.println("DA:Rs"+da);
 
-System.out.println(“HRA:Rs”+hra);
+System.out.println("HRA:Rs"+hra);
 
-System.out.println(“PF:Rs”+pf);
+System.out.println("PF:Rs"+pf);
 
-System.out.println(“CLUB:Rs”+club);
+System.out.println("CLUB:Rs"+club);
 
-System.out.println(“GROSS PAY:Rs”+gross);
+System.out.println("GROSS PAY:Rs"+gross);
 
-System.out.println(“NET PAY:Rs”+net);
+System.out.println("NET PAY:Rs"+net);
 
 }
 
@@ -234,7 +234,7 @@ void getprofessor()
 
 {
 
-System.out.println(“Enter basic pay”);
+System.out.println("Enter basic pay");
 
 bp = get.nextDouble();
 
@@ -256,25 +256,25 @@ gross=(bp+da+hra);
 
 net=(gross-pf-club);
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“PAY SLIP FOR PROFESSOR”);
+System.out.println("PAY SLIP FOR PROFESSOR");
 
-System.out.println(“************************************************”);
+System.out.println("************************************************");
 
-System.out.println(“Basic Pay:Rs”+bp);
+System.out.println("Basic Pay:Rs"+bp);
 
-System.out.println(“DA:Rs”+da);
+System.out.println("DA:Rs"+da);
 
-System.out.println(“HRA:Rs”+hra);
+System.out.println("HRA:Rs"+hra);
 
-System.out.println(“PF:Rs”+pf);
+System.out.println("PF:Rs"+pf);
 
-System.out.println(“CLUB:Rs”+club);
+System.out.println("CLUB:Rs"+club);
 
-System.out.println(“GROSS PAY:Rs”+gross);
+System.out.println("GROSS PAY:Rs"+gross);
 
-System.out.println(“NET PAY:Rs”+net);
+System.out.println("NET PAY:Rs"+net);
 
 }
 
@@ -294,11 +294,9 @@ do
 
 {
 
-System.out.println(“PAYROLL”);
+System.out.println("PAYROLL");
 
-System.out.println(” 1.PROGRAMMER \t 2.ASSISTANT PROFESSOR \t 3.ASSOCIATE
-
-PROFESSOR \t 4.PROFESSOR “);
+System.out.println(" 1.PROGRAMMER \t 2.ASSISTANT PROFESSOR \t 3.ASSOCIATE PROFESSOR \t 4.PROFESSOR ");
 
 Scanner c = new Scanner(System.in);
 
@@ -382,7 +380,7 @@ break;
 
 }
 
-System.out.println(“Do u want to continue 0 to quit and  1 to continue “);
+System.out.println("Do u want to continue 0 to quit and  1 to continue ");
 
 cont=c.nextInt();
 
