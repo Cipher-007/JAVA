@@ -41,23 +41,28 @@ class Publication
         int amt;
         System.out.println("Enter Amount U Want to withdraw : ");
         amt = KB.nextInt();
-        if (copies >= amt) {
+        if (copies >= amt) 
+        {
             copies = copies - amt;
-        } else {
+        } else 
+        {
             System.out.println("The inventory only has "+copies+" available ");
         }
     }
 
     // Method to search by title
-    boolean search(String acn) {
-        if (title.equals(acn)) {
+    boolean search(String acn) 
+    {
+        if (title.equals(acn)) 
+        {
             display();
             return (true);
         }
         return (false);
     }  
 }        
-public class BookStore {
+public class BookStore 
+{
     public static void main(String args[])
     {         
         Scanner KB = new Scanner(System.in);
